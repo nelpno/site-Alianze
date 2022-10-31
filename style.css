@@ -1,0 +1,17 @@
+@import url('styles/cabecalho.css');
+@import url('styles/como-trabalhamos.css');
+
+
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --cor-principal: #131846;
+    --branco: #FFFFFF;
+    --cinza-claro: lightgray;
+
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
