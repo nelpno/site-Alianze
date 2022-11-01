@@ -1,0 +1,50 @@
+.quem-somos {
+    background-color: var(--cinza-claro);
+}
+
+.quem-somos__container {
+    width: 58%;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.quem-somos__titulo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+.quem-somos hr {
+    border: 3px solid var(--cor-principal);
+    margin-right: 85%;
+}
+
+.quem-somos__texto {
+    margin: 2em 0 1.5em;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    color: var(--cor-principal);
+}
+
+.icones__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em 0 0;
+}
+
+.icones__container img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--cor-principal);
+    border-radius: 50px;
+    background-color: var(--cor-principal);
+    padding: 25px;
+    margin-bottom: 1em;
+}

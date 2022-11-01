@@ -1,5 +1,5 @@
 .como-trabalhamos {
-    padding: 2em 0;
+    padding: 2em;
 }
 
 .como-trabalhamos__titulo {
@@ -10,11 +10,16 @@
     color: var(--cor-principal);
 }
 
-hr {
+.linha-sublinhado {
     width: 10%;
-    height: 4px;
     background-color: var(--cor-principal);
-    border: none;
+    border: 3px solid;
+
+}
+
+.blocos__container hr {
+    color: white;
+    width: 90%;
 }
 
 .como-trabalhamos__blocos {
@@ -25,30 +30,70 @@ hr {
 }
 
 .blocos__container {
-    width: 15%;
+    width: 18%;
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: 1em;
     border: 1px solid var(--cinza-claro);
+    padding: 10px;
+}
+
+.colorido {
+    background: var(--cor-principal);
+}
+
+.colorido__texto {
+    color: white;
+    font-size: 12px;
+    line-height: 120%;
+    padding: 5px;
+    text-justify: auto;
 }
 
 .blocos__container__img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 90px;
     padding: 5px;
 }
 
 .blocos__container__titulo {
     font-weight: 700;
-    font-size: 14px;
     color: var(--cor-principal);
 }
 
+.blocos__container__titulo__colorido {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
 .blocos__container__texto {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 120%;
     padding: 5px;
     color: var(--cor-principal);
     text-justify: auto;
+}
+
+.botao-ale, .texto-rodape {
+    text-align: center;
+    margin: 3em 0 0;
+}
+
+.botao-fale__link {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-principal);
+    text-transform: uppercase;
+    border: 2px solid  var(--cor-principal);
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 1em 2em;
+}
+
+.texto-rodape {
+    font-size: 12px;
+    color: var(--cor-principal);
+    font-weight: bold;
 }
